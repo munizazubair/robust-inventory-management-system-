@@ -65,13 +65,6 @@ The `Inventory` class manages a collection of products and provides methods to m
   * `total_inventory_value()`: Calculates the total value of the inventory.
   * `remove_expired_products()`: Removes expired grocery items from the inventory.
 
-### Key Features
-
-* **Encapsulation**: All product attributes are encapsulated within the class, preventing direct modification.
-* **Inheritance**: `Electronics`, `Grocery`, and `Clothing` inherit common behaviors from `Product`.
-* **Abstraction**: The `Product` class defines an abstract method `__str__()` that each subclass must implement, ensuring each product type has a custom string representation.
-* **Error Handling**: The `sell` method raises an exception if there is insufficient stock, and the `add_product` method prevents adding products with duplicate IDs.
-
 ## Requirements
 
 To run this project, Python 3.x is required.
